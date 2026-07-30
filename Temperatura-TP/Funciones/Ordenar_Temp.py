@@ -5,3 +5,4 @@ def Ordenar_Temp (lista):
                 Aux = lista[j]
                 lista[j] = lista[j+1]
                 lista[j+1] = Aux
+    return lista

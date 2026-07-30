@@ -9,15 +9,15 @@ from Funciones.Ordenar_Temp import Ordenar_Temp
 temperaturas = []
 
 while True:
-    print("\t\tMenú:")
-    print("\t1- Agregar Temperatura")
-    print("\t2- Mostrar Temperatura")
-    print("\t3- Calcular Promedio")
-    print("\t4- Buscar Mayor")
-    print("\t5- Buscar Menor")
-    print("\t6- Contar Temperaturas")
-    print("\t7- Ordenar Temperaturas")
-    print("\t8- Salir\n")
+    print("\n\tMenú:")
+    print("1- Agregar Temperatura")
+    print("2- Mostrar Temperatura")
+    print("3- Calcular Promedio")
+    print("4- Buscar Mayor")
+    print("5- Buscar Menor")
+    print("6- Contar Temperaturas")
+    print("7- Ordenar Temperaturas")
+    print("8- Salir\n")
     opcion = int(input("Opción:\t"))
     if opcion in [1,2,3,4,5,6,7,8]:
         if opcion == 1:
